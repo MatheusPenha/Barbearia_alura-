@@ -1,0 +1,133 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+
+/*Essa parte e referente a home do site*/
+.principal {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 20px;
+}
+
+.beneficios {
+	font-size: 20px;
+
+}
+
+.esquerda {
+	margin-top: 70px;
+	margin-left: 550px;
+	width: 256px;
+	height: 150px;
+	/*background-color: #c78c19;*/
+}
+
+.esquerda img {
+	position: absolute;
+	left: 1000px;
+	top: 450px;
+	height: 470px;
+	width: 650px;
+}
+
+/*Aqui encerra a home*/
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fdfbfb;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	/*referente ao tamanho da caixa dos produtos*/
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 40px 60px;
+	margin-top: 10px;
+
+}
+
+.produtos li:hover {
+	border-color: #c78c19;
+}
+
+.produtos h2 {
+	/*Texto dentro do border box, onde diz cada produto.*/
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/*Aqui começa a pagina dos contatos*/
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+	
+}
+form label{
+	display: block;
+	margin-top: 10px;
+}
+form input{
+	display: block;
+	margin-top: 20px;
+	padding: 10px 10px;
+	width: 70%;
+}
+.submit{
+	width: 20%;
+}
